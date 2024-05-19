@@ -1,0 +1,11 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+
+  "exclude": [
+    "node_modules",
+    "build",
+    "icon/qrcode.png", // Resim dosyalarının bulunduğu klasörü hariç tutun
+    "icon/qrcode2.png" // Resim dosyalarının bulunduğu klasörü hariç tutun
+  ]
+}
+  
